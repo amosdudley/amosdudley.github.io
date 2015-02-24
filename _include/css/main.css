@@ -302,9 +302,19 @@ h3.spec {
 	width: 100%;
 	height: 100%;
 	background: #26292E;
-	opacity: 0.2;
+	opacity: 0.1;
 	filter: alpha(opacity=70);
 	z-index: 0;
+}
+
+#home-slider .slider-hoverbox {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -100px 0 0 -225px;
+	text-align: center;
+	z-index: 2;	
+	opacity: 0.5
 }
 
 #home-slider .slider-text {
@@ -327,11 +337,11 @@ h3.spec {
 }
 
 #home-slider .slide-content {
-	font-size: 60px;
+	font-size: 50px;
 	color: #FFFFFF;
 	letter-spacing: -2px;
 	text-transform: uppercase;
-	font-family: 'Playfair Display SC', serif;	
+	font-family: 'Droid Serif', serif;	
 }
 
 #home-slider .control-nav {

@@ -1,0 +1,3 @@
+To add more home page images:
+main.js search "uncomment"
+
