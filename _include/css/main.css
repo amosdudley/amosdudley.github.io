@@ -645,6 +645,14 @@ nav#menu #menu-nav li a:hover {
 	z-index: 99;
 }
 
+.page-footer {
+	background: #2F3238;
+	padding-top: 0px;
+	padding-bottom: 100px;
+	position: relative;
+	z-index: 99;
+}
+
 .page-alternate {
 	background: #26292E;
 	padding: 100px 0;
